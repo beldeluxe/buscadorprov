@@ -6,7 +6,7 @@ let resultado;
 
 $("#prov").keyup(function()
 {
-		 
+		 document.getElementById("pr").innerHTML="";
 		
 		let prov = $("#prov").val();
 		let variable =  {dato1: prov};		
@@ -51,13 +51,13 @@ $("#prov").keyup(function()
 				    {
 				    	let resultado2 = JSON.parse(data2);
             			
-            			$("#inp").append("<p id='titulo'>Ciudades de "+seleccionada+"</p>");
-            			$("#inp").append("<hr/>");
+            			$("#pr").append("<p id='titulo'>Ciudades de "+seleccionada+"</p>");
+            			$("#pr").append("<hr/>");
             			for(let i=0; i<resultado2.length; i++)
             			{
             				let p= "<p>"+resultado2[i].municipio+"</p>";
-            				$("#inp").append(p);
-            				$("#inp").append("<hr/>");
+            				$("#pr").append(p);
+            				$("#pr").append("<hr/>");
             			}	
             			
             			initMap(resultado2, id_capital, longitud, latitud);
