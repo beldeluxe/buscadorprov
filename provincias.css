@@ -1,0 +1,107 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+html
+{
+	width: 100%;
+	height: 100%;
+}
+body
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #EFF2FA;
+}
+#contenedor
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#inp
+{
+	width: 20%;
+	height: 90%;
+	background-color: #EFF2FA;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+
+}
+
+input
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+	border-color: #EFF2FA;
+	height: 5%;
+	width: 80%;
+	margin-bottom: 40%;	
+	font-size: 17px;
+}
+
+label
+{
+	margin-right: 27%;
+	margin-bottom: 3%;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+
+}
+
+p
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+}
+
+p:hover
+{
+	font-size: 18.5px;
+	transition: 0.5s;
+}
+
+hr 
+{
+	border: 2px inset #eee; 
+	height: 1px; 
+	width: 80%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#titulo
+{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	margin-bottom: 10%;
+	font-size: 19px;
+}
+
+#mapa
+{
+	width: 75%;
+	height: 75%;
+	margin-top: 3%;
+	margin-left: 2%;
+
+}
+
+header
+{
+	height: 10%;
+	margin-top: 1%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 230%;
+	color: white;
+	text-shadow: -2px 0 #022278, 0 1px #022278, 1px 0 #022278, 0 -2px #022278;
+
+
+}
